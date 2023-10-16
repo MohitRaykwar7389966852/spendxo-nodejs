@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/ea3f55e7-7149-42cd-af4c-9a3a3a9603e7/resourceGroups/statxo_nonprod_database2/providers/Microsoft.Web/sites/spendxo",
+    "appService.deploySubpath": "."
+}
