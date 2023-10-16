@@ -11,7 +11,7 @@ const fs = require('fs');
 //file upload
 const uploadFile = (file) => {
     return new Promise((resolve, reject) => {
-    const blobService = azure.createBlobService('statxospend', 'IoBekHQDMeExy/ZlXDAYh9Bf1/Nc8ERuNqsAkFymnua63yKWnbQwguPuvNEnx5TGJ3gPsJh/br+D+AStgkMJYQ==');
+    const blobService = azure.createBlobService(process.env.STORAGE, process.env.STORAGE_KEY);
     const containerName = 'spendxo';
     let fileName = file.originalname;
     fileName = fileName.split(" ");
